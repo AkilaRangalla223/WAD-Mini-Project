@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cakes by Roo - Your favourite taste </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<!---------------------------------------
+------------nav-bar starts---------------
+---------------------------------------->
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="cart.html"> Cart</a></li>
+        </ul>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+   
+<!---------------------------------------
+----------- nav-bar ends ----------------
+---------------------------------------->
+
+
+<!---------------------------------------
+----------- cart section starts ---------
+---------------------------------------->
+
+    <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="cart()"> <b> Cart </b> </button>
+            <button type="button" class="toggle-btn" onclick="summary()"> <b> Summary </b> </button>
+        </div>
+
+        <a href="cart-menu.html">
+            <div id="cart" class="input-group">
+                <button type="submit" class="submit-btn">  Click here to view cart <br> <span> <i> Contact us for any enquiry </i> </span> </button>
+            </div>
+        </a>
+
+
+
+        <form action="" id="summary" class="input-group">
+            <label for="" id="summary-lbl"> <i> Additional costs are calculated based on values you have entered. </i> </label>
+            <input type="text" class="input-field" placeholder="Order subtotal"> 
+            <input type="text" class="input-field" placeholder="Additional charges">
+            <input type="email" class="input-field" placeholder="Total">
+            <button type="submit" class="submit-btn"> <b>Proceed</b> </button>
+        </form> 
+    </div>    
+<!---------------------------------------
+----------- cart section ends -----------
+---------------------------------------->
+   
+
+<!---------------------------------------
+----------- footer section starts -------
+---------------------------------------->
+
+<div class="footer">
+
+</div>
+
+<!---------------------------------------
+----------- footer section ends ---------
+---------------------------------------->
+
+
+
+
+<!---------------------------------------
+----background animation effect starts----
+--------------------------------------->
+
+    <diV class="animation-area">
+        <ul class="box-area">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </diV>
+
+<!---------------------------------------
+----background animation effect ends----
+--------------------------------------->    
+
+<script src="main.js"></script>
+</body>
+</html>
